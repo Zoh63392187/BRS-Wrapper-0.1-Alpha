@@ -447,8 +447,8 @@ $BRS = new BRS();
 $BRS->set_api_url('http://77.66.65.240:8125/');
 // Just for testing 
 $BRS->set_account('BURST-9LSF-V4WN-34E8-4WCMR');
-$time =  $BRS->getTrades();
+$result =  $BRS->getTrades();
 
 echo'<pre>';
-print_r($time);
+print_r($result);
 echo'</pre>';
